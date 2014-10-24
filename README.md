@@ -3,7 +3,23 @@ webos-ipk-dump
 
 PHP script that uses your palm profile to download and tar IPKs for your installed apps.
 
-### Requirements ###
+### Requirements (Windows EXE)###
+
+* WebOS access token (* Palm Profile)
+* WebOS device ndUid (* Device Profile)
+* WebOS Installed Apps list saved as .json file (* Installed Apps)
+* free disk space
+
+### Instructions (Windows EXE)###
+
+1. Download webos-ipk-dump.zip
+2. Extract zip to c:\tmp
+3. Save "Installed Apps" (from the email you sent yourself above) as "ipkdump.json"
+4. Place ipkdump.json into c:\tmp directory (with "webos-ipk-dump.exe")
+5. Have your "token" and "ndUid" ready!
+6. Run webos-ipk-dump.exe from command line
+
+### Requirements (PHP 5.3+)###
 
 * Ability to run PHP on the command line
 * wget
