@@ -6,7 +6,7 @@ PHP script that uses your palm profile to download and tar IPKs for your install
 ### Requirements (Windows EXE)###
 
 * WebOS access token (* Palm Profile)
-* WebOS device ndUid (* Device Profile)
+* WebOS device ndUid (* Device Profile, **)
 * WebOS Installed Apps list saved as .json file (* Installed Apps)
 * free disk space
 
@@ -25,12 +25,13 @@ PHP script that uses your palm profile to download and tar IPKs for your install
 * wget
 * tar
 * WebOS access token (* Palm Profile)
-* WebOS device ndUid (* Device Profile)
+* WebOS device ndUid (* Device Profile, **)
 * WebOS Installed Apps list saved as .json file (* Installed Apps)
 * free disk space
 
 
 *You can get these 3 things from by using Impostah's (on your WebOS device) email feature
+** Pre Users deviceId will be in format IMEI:XXXXXXXXXXXXXXXXX see post #25 by gizmo21 http://forums.webosnation.com/3427238-post25.html
 
 ==============
 
