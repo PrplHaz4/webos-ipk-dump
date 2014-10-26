@@ -56,7 +56,18 @@ def downloadIpk(token, deviceId, ipkUrl):
         print(" ...already exists.")
 
 def readIpkJson(inputFilename):
-    return json.load(codecs.open(inputFilename, 'r'))
+    try:
+        f = json.load(codecs.open(inputFilename, 'r', 'utf8'))
+    except:
+        e = sys.exc_info()[0]
+        print(e)
+        print("...trying UTF-16...")
+        try:
+            f = json.load(codecs.open(inputFilename, 'r', 'utf16'))
+        except:
+            e = sys.exc_info()[0]
+            print(e)
+    return f
 
 if __name__ == '__main__':
     if len(sys.argv) < 3:
