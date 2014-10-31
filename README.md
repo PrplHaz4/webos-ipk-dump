@@ -7,7 +7,7 @@ PHP script that uses your palm profile to download and tar IPKs for your install
 
 * WebOS access token (* Palm Profile)
 * WebOS device ndUid (* Device Profile, **)
-* WebOS Installed Apps list saved as .json file (* Installed Apps)
+* WebOS Installed Apps list saved as .json file (* App Catalog -> Installed Apps)
 * free disk space
 
 ### Instructions (Windows EXE)###
@@ -26,7 +26,7 @@ PHP script that uses your palm profile to download and tar IPKs for your install
 * tar
 * WebOS access token (* Palm Profile)
 * WebOS device ndUid (* Device Profile, **)
-* WebOS Installed Apps list saved as .json file (* Installed Apps)
+* WebOS Installed Apps list saved as .json file (* App Catalog -> Installed Apps)
 * free disk space
 
 
