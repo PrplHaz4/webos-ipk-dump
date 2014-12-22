@@ -40,6 +40,7 @@ def getRequestHeaders(token, deviceId):
     }
 
 def downloadIpk(token, deviceId, ipkUrl):
+    ipkUrl = ipkUrl.replace("cdn.downloads.palm.com", "cdn.downloads.hpsvcs.com")
     appFilename = getAppFilename(ipkUrl)
     headers = getRequestHeaders(token, deviceId)
 

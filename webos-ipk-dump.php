@@ -7,6 +7,7 @@ $inputFile = 'ipkdump.json';
 
 function downloadIPK($token, $deviceId, $IPKUrl)
 {
+	$IPKUrl = str_replace('cdn.downloads.palm.com', 'cdn.downloads.hpsvcs.com', $IPKUrl);
 	$savefile = getAppFilename($IPKUrl);
 	$outputfile = "./cache/{$savefile}";
 	
